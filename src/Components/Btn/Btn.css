@@ -1,0 +1,17 @@
+.btn-area button {
+  text-decoration: none;
+  padding: 7px 30px;
+  color: #000;
+  border-radius: 25px;
+  transition: 0.3s ease-in-out;
+  border: 3px solid #f6ba18;
+  font-weight: 600;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 186, 24, 1) 100%
+  );
+}
+.btn-area button:hover {
+  background: #f6ba18;
+}
