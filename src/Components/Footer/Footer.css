@@ -36,8 +36,11 @@
   background-color: #f6ba18;
   border: none;
 }
+.form-group button:hover {
+  background-color: #b98d12;
+}
 .form-group button i {
-  color: #fff;
+  color: #999;
 }
 .footer-links h4 {
   position: relative;
@@ -122,8 +125,8 @@
   display: inline-block;
   position: relative;
   margin-left: 40px;
-  top: -13px;
-  left: -30px;
+  top: -7px;
+  left: -45px;
   font-size: 30px;
 }
 .social-box li a {
@@ -132,6 +135,10 @@
   position: absolute;
   color: #fff;
 }
-.language button {
-  color: #fff;
+.social-box li a:hover {
+  color: #f6ba18;
+}
+.language .btn-link {
+  text-decoration: none;
+  border-radius: 5px;
 }

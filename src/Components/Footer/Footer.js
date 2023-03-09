@@ -3,6 +3,7 @@ import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Logo from "../../Images/logo.png";
+import Button from "../Button/Button";
 import "./Footer.css";
 
 const Footer = () => {
@@ -34,7 +35,7 @@ const Footer = () => {
                           required=""
                         ></input>
                         <button type="submit">
-                          <i class="fa-solid fa-paper-plane"></i>
+                          <i class="fa-regular fa-paper-plane"></i>
                         </button>
                       </div>
                     </div>
@@ -96,7 +97,7 @@ const Footer = () => {
                         <span>
                           <i className="fa-solid fa-phone"></i>
                         </span>
-                        <a href="tel:+8801741846653">(+880) 1741 846 653</a>
+                        <a href="tel:+8801741846653">(+880) 1741-836-653</a>
                       </li>
                       <li>
                         <span>
@@ -154,9 +155,7 @@ const Footer = () => {
                 </li>
               </ul>
               <div className="language">
-                <button class="btn dropdown-toggle" type="button">
-                  English (US)
-                </button>
+                <Button className="btn-link" btnName="English (US)" />
               </div>
             </div>
           </div>

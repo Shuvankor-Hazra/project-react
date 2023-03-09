@@ -22,19 +22,18 @@
 .slider h1 {
   font-size: 4rem;
   font-weight: 700;
+  padding: 20px 0;
 }
 .slider p {
   font-size: 1.7rem;
   font-weight: 700;
 }
-.slider .btn {
+.slider .button button {
   margin-bottom: 50px;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 1.5rem;
-}
-.slider button {
   padding: 10px 45px;
-  border-radius: 50px;
+  border-radius: 25px;
   color: #000;
 }
 @media (max-width: 991px) {

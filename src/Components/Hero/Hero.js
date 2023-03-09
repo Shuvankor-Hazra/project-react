@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Btn from "../Btn/Btn";
+import Button from "../Button/Button";
 import "./Hero.css";
 
 const Hero = () => {
@@ -19,8 +19,8 @@ const Hero = () => {
             <h5>{item.subheading}</h5>
             <h1>{item.heading}</h1>
             <p>{item.text}</p>
-            <div className="btn">
-              <Btn btnName={item.button}></Btn>
+            <div className="button">
+              <Button btnName={item.button}></Button>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

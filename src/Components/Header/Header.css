@@ -22,8 +22,9 @@
 .header-area .nav-link:active {
   color: #f6ba18 !important;
 }
-.header-area button {
+.header-area .btn-link {
   margin-left: 30px;
   font-size: 16px;
   font-weight: 600;
+  text-decoration: none;
 }

@@ -1,4 +1,3 @@
-import { signOut } from "firebase/auth";
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -7,7 +6,8 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, NavLink } from "react-router-dom";
 import auth from "../../firebase.init";
 import Logo from "../../Images/logo.png";
-import Btn from "../Btn/Btn";
+// import Button from "../Button/Button";
+import { signOut } from "firebase/auth";
 import "./Header.css";
 
 const Header = () => {
@@ -21,7 +21,7 @@ const Header = () => {
       <Navbar expand="lg" className="nav-bar fixed-top">
         <Container>
           <Navbar.Brand className="logo" as={Link} to="/">
-            <img src={Logo} alt=""></img>
+            <img src={Logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -35,21 +35,18 @@ const Header = () => {
               <NavLink to="/blog" className="nav-link ms-4">
                 <i className="fa-solid fa-blog me-1"></i>Blog
               </NavLink>
-              <NavLink to="/reg" className="nav-link ms-4">
-                Reg
-              </NavLink>
               {user ? (
-                <Btn
+                <NavLink
                   btnName="Sign Out"
-                  className="btn ms-2"
+                  className="btn-link"
                   onClick={handleSignOut}
-                ></Btn>
+                >
+                  Sign Out
+                </NavLink>
               ) : (
-                <Btn
-                  btnName="Sign In"
-                  to="/signIn"
-                  className="btn btn-primary nav-link text-white ms-2"
-                ></Btn>
+                <NavLink as="Link" to="/signin" className="btn-link">
+                  Sign In
+                </NavLink>
               )}
             </Nav>
           </Navbar.Collapse>

@@ -1,6 +1,6 @@
 import React from "react";
 import Col from "react-bootstrap/esm/Col";
-import Btn from "../Btn/Btn";
+import Button from "../Button/Button";
 import "./SinglePricing.css";
 
 const SinglePricing = () => {
@@ -44,7 +44,7 @@ const SinglePricing = () => {
               </li>
             </ul>
           </div>
-          <Btn btnName="Get Started" />
+          <Button btnName="Get Started" />
         </div>
       </Col>
       <Col md={4}>
@@ -85,7 +85,7 @@ const SinglePricing = () => {
               </li>
             </ul>
           </div>
-          <Btn btnName="Get Started" />
+          <Button btnName="Get Started" />
         </div>
       </Col>
       <Col md={4}>
@@ -125,7 +125,7 @@ const SinglePricing = () => {
               </li>
             </ul>
           </div>
-          <Btn btnName="Get Started" />
+          <Button btnName="Get Started" />
         </div>
       </Col>
     </>

@@ -6,6 +6,8 @@ import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
 import Blog from "./Pages/Blog/Blog";
 import Reg from "./Components/Reg/Reg";
+import SignIn from "./Components/SignIn/SignIn";
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/reg" element={<Reg />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

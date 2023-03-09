@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBy_ajKUmoyaDL2HarjW8wx0en6xVa82Go",
-  authDomain: "project-react-b61fe.firebaseapp.com",
-  projectId: "project-react-b61fe",
-  storageBucket: "project-react-b61fe.appspot.com",
-  messagingSenderId: "35952976390",
-  appId: "1:35952976390:web:77843083e2baaed8c71987",
+  apiKey: "AIzaSyC4E1ZCQMKaaBq0EgWlyw5CQOVmT9xwKgQ",
+  authDomain: "first-auth-23abb.firebaseapp.com",
+  projectId: "first-auth-23abb",
+  storageBucket: "first-auth-23abb.appspot.com",
+  messagingSenderId: "934107982525",
+  appId: "1:934107982525:web:eb016bfea6091ed1a6a5d4",
 };
 
 const app = initializeApp(firebaseConfig);
