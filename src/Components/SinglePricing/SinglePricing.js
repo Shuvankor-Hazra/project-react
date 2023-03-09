@@ -44,7 +44,9 @@ const SinglePricing = () => {
               </li>
             </ul>
           </div>
-          <Button btnName="Get Started" />
+          <div className="btn-area d-flex justify-content-center align-items-center">
+            <Button btnName="Get Started" />
+          </div>
         </div>
       </Col>
       <Col md={4}>
@@ -85,7 +87,9 @@ const SinglePricing = () => {
               </li>
             </ul>
           </div>
-          <Button btnName="Get Started" />
+          <div className="btn-area d-flex justify-content-center align-items-center">
+            <Button btnName="Get Started" />
+          </div>
         </div>
       </Col>
       <Col md={4}>
@@ -125,7 +129,9 @@ const SinglePricing = () => {
               </li>
             </ul>
           </div>
-          <Button btnName="Get Started" />
+          <div className="btn-area d-flex justify-content-center align-items-center">
+            <Button btnName="Get Started" />
+          </div>
         </div>
       </Col>
     </>

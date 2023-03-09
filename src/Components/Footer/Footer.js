@@ -134,22 +134,38 @@ const Footer = () => {
             <div className="right-box d-flex">
               <ul className="social-box">
                 <li>
-                  <a href="https://www.facebook.com/">
+                  <a
+                    href="https://www.facebook.com/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     <i class="fa-brands fa-square-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/">
+                  <a
+                    href="https://www.instagram.com/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     <i class="fa-brands fa-square-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/">
+                  <a
+                    href="https://www.twitter.com/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     <i class="fa-brands fa-square-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </li>

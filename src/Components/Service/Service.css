@@ -6,8 +6,12 @@
   transition: all 0.3s;
   background-color: #fff;
 }
+.single-item .image {
+  position: relative;
+}
 .single-item .image img {
   border-radius: 15px;
+  transform: translateY(-20px);
 }
 .single-item .details {
   padding: 10px 20px 40px 20px;

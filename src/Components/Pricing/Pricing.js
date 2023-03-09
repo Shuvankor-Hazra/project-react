@@ -7,7 +7,7 @@ import "./Pricing.css";
 
 const Pricing = () => {
   return (
-    <div className="pricing-area">
+    <section className="pricing-area">
       <Container>
         <Row>
           <SectionHeading
@@ -20,7 +20,7 @@ const Pricing = () => {
           <SinglePricing />
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 
