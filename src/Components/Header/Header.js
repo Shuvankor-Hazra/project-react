@@ -6,7 +6,6 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, NavLink } from "react-router-dom";
 import auth from "../../firebase.init";
 import Logo from "../../Images/logo.png";
-// import Button from "../Button/Button";
 import { signOut } from "firebase/auth";
 import "./Header.css";
 
@@ -26,21 +25,17 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <NavLink to="/" className="nav-link ms-4">
+              <NavLink to="/" className=" nav-link">
                 <i className="fa-solid fa-house-user me-1"></i>Home
               </NavLink>
-              <NavLink to="/about" className="nav-link ms-4">
+              <NavLink to="/about" className="nav-link">
                 <i className="fa-solid fa-circle-info me-1"></i>About
               </NavLink>
-              <NavLink to="/blog" className="nav-link ms-4">
+              <NavLink to="/blog" className="nav-link">
                 <i className="fa-solid fa-blog me-1"></i>Blog
               </NavLink>
               {user ? (
-                <NavLink
-                  btnName="Sign Out"
-                  className="btn-link"
-                  onClick={handleSignOut}
-                >
+                <NavLink className="btn-link" onClick={handleSignOut}>
                   Sign Out
                 </NavLink>
               ) : (

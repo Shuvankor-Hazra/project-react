@@ -30,12 +30,10 @@ const Footer = () => {
                         <input
                           type="email"
                           name="email"
-                          value=""
                           placeholder="Email Address"
-                          required=""
                         ></input>
                         <button type="submit">
-                          <i class="fa-regular fa-paper-plane"></i>
+                          <i className="fa-regular fa-paper-plane"></i>
                         </button>
                       </div>
                     </div>
@@ -109,7 +107,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <span>
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                         </span>
                         <a href="/">
                           9440, Satkhira, Khulna, <br />
@@ -139,7 +137,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i class="fa-brands fa-square-facebook"></i>
+                    <i className="fa-brands fa-square-facebook"></i>
                   </a>
                 </li>
                 <li>
@@ -148,7 +146,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i class="fa-brands fa-square-instagram"></i>
+                    <i className="fa-brands fa-square-instagram"></i>
                   </a>
                 </li>
                 <li>
@@ -157,7 +155,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i class="fa-brands fa-square-twitter"></i>
+                    <i className="fa-brands fa-square-twitter"></i>
                   </a>
                 </li>
                 <li>
@@ -166,7 +164,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
               </ul>

@@ -8,11 +8,11 @@
   border: 25px solid #f6ba18;
 }
 .slider {
-  margin-top: 75px;
+  margin-top: 73px;
 }
 .slider img {
   opacity: 0.6;
-  max-height: 100vh;
+  max-height: calc(100vh - 75px);
 }
 .slider h5 {
   color: #f6ba18;
@@ -22,20 +22,32 @@
 .slider h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 .slider p {
   font-size: 1.7rem;
   font-weight: 700;
 }
 .slider .button button {
-  margin-bottom: 50px;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 30px;
   font-size: 1.5rem;
   padding: 10px 45px;
   border-radius: 30px;
   color: #000;
+  font-weight: 700;
 }
+
+@media (max-width: 1199px) {
+  .slider h1 {
+    font-size: 2.8rem;
+    padding: 10px 0;
+  }
+  .slider .button button {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 991px) {
   .carousel-control-next-icon,
   .carousel-control-prev-icon {

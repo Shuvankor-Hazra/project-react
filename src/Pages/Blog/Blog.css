@@ -3,7 +3,8 @@
   background-color: #151c57;
 }
 .blog-body {
-  padding: 100px 0;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 .single-blog {
   margin-top: 30px;
@@ -23,4 +24,7 @@
 }
 .Blog-text h2 {
   padding-bottom: 20px;
+}
+.Blog-text p {
+  font-size: 18px;
 }

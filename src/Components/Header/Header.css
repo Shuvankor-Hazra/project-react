@@ -1,10 +1,5 @@
 .header-area .nav-bar {
-  background: #151c57;
-  background: linear-gradient(
-    180deg,
-    rgba(21, 28, 87, 1) 0%,
-    rgb(2, 2, 48) 100%
-  );
+  background: #020230;
 }
 .header-area .logo {
   font-size: 30px;
@@ -17,14 +12,45 @@
 .header-area .nav-link {
   font-size: 18px;
   color: #fff !important;
+  margin-left: 1.5rem;
 }
 .header-area .nav-link:hover,
-.header-area .nav-link:active {
+.header-area .nav-link:is(:link, :active, :visited).active {
   color: #f6ba18 !important;
+  transform: scale(0.98);
 }
 .header-area .btn-link {
   margin-left: 30px;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
+}
+.navbar-toggler,
+.navbar-toggler-icon {
+  background-color: #f6ba18;
+  border-radius: 20px;
+}
+button {
+  background-color: #f6ba18;
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler {
+    /* font-size: small !important; */
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .navbar-nav {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .header-area .nav-link {
+    margin-left: 0 !important;
+  }
+  .header-area .btn-link {
+    margin-left: 0 !important;
+  }
+  .btn-link {
+    padding: 4px;
+  }
 }
