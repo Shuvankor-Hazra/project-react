@@ -1,0 +1,22 @@
+.about-body {
+  padding: 100px 0;
+  background-color: #151c57;
+}
+.about-text {
+  padding-top: 40px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-radius: 50px;
+}
+.about-text h2 {
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-text p {
+  padding-bottom: 0;
+  font-size: 14px;
+}
+.about-image img {
+  border-radius: 50px;
+}

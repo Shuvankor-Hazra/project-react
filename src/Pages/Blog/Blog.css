@@ -1,3 +1,26 @@
 .blog-area {
   margin-top: 75px;
+  background-color: #151c57;
+}
+.blog-body {
+  padding: 100px 0;
+}
+.single-blog {
+  margin-top: 30px;
+}
+.Blog-image {
+  border: 1px solid #999;
+  border-radius: 10px 10px 0 0;
+}
+.Blog-image img {
+  border: 1px solid #999;
+  border-radius: 10px 10px 0 0;
+}
+.Blog-text {
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 0 0 10px 10px;
+}
+.Blog-text h2 {
+  padding-bottom: 20px;
 }

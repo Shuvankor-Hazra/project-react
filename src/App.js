@@ -8,6 +8,7 @@ import Blog from "./Pages/Blog/Blog";
 import Reg from "./Components/Reg/Reg";
 import SignIn from "./Components/SignIn/SignIn";
 import NotFound from "./Components/NotFound/NotFound";
+import RequireAuth from "./Components/RequireAuth/RequireAuth";
 
 function App() {
   return (
@@ -15,8 +16,16 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route
+          path="/blog"
+          element={
+            <RequireAuth>
+              <Blog />
+            </RequireAuth>
+          }
+        />
         <Route path="/reg" element={<Reg />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/*" element={<NotFound />} />

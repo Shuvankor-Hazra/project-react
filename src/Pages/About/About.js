@@ -1,11 +1,14 @@
 import React from "react";
+import AboutBody from "../../Components/AboutBody/AboutBody";
+import AboutHead from "../../Components/AboutHead/AboutHead";
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-area">
-      <h2>about page</h2>
-    </div>
+    <>
+      <AboutHead />
+      <AboutBody />
+    </>
   );
 };
 

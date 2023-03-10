@@ -1,0 +1,33 @@
+.blog-head {
+  margin-top: 75px;
+  position: relative;
+}
+.blog-head-img img {
+  max-height: 70vh;
+  opacity: 0.5;
+}
+.blog-head-text h1 {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 800;
+  top: 40%;
+  right: 40%;
+  letter-spacing: 5px;
+}
+.blog-head-text h1::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #f6ba18;
+  top: -10%;
+  left: 0px;
+}
+.blog-head-text h1::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #f6ba18;
+  bottom: -10%;
+}

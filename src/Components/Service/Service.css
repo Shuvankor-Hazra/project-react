@@ -1,6 +1,4 @@
 .single-item {
-  position: relative;
-  /* border: 1px solid #fff; */
   border-radius: 15px;
   margin-bottom: 1px;
   transition: all 0.3s;
@@ -11,7 +9,7 @@
 }
 .single-item .image img {
   border-radius: 15px;
-  transform: translateY(-20px);
+  transition: 0.5s ease-in-out;
 }
 .single-item .details {
   padding: 10px 20px 40px 20px;
@@ -40,11 +38,8 @@
 .single-item:hover {
   background-color: #235c51;
 }
-.single-item:hover .icon {
-  color: #fff;
-}
-.single-item:hover .icon i {
-  color: #fff;
+.single-item:hover .image img {
+  transform: translateY(-20px);
 }
 .single-item:hover .details h3 {
   color: #f6ba18;
