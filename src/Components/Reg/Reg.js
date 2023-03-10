@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Form from "react-bootstrap/Form";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
-import auth from "../../firebase.init";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import { NavLink } from "react-router-dom";
@@ -11,6 +10,7 @@ import GoogleSignUp from "../GoogleSignUp/GoogleSignUp";
 import FacebookSignUp from "../FacebookSignUp/FacebookSignUp";
 import GithubSignUp from "../GithubSignUp/GithubSignUp";
 import Button from "react-bootstrap/esm/Button";
+import auth from "../../firebase.init";
 
 const Reg = () => {
   const [email, setEmail] = useState("");

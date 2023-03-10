@@ -3,22 +3,20 @@ import Container from "react-bootstrap/esm/Container";
 import Button from "react-bootstrap/esm/Button";
 import Form from "react-bootstrap/Form";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
-import auth from "../../firebase.init";
 import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/esm/Row";
 import { NavLink } from "react-router-dom";
 import "./SignIn.css";
+import auth from "../../firebase.init";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const messageDiv = document.getElementById("message-div");
-
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
-
   if (error) {
-    messageDiv.innerHTML = "Please fill in all boxes";
+    messageDiv.innerHTML = "error";
   }
   if (loading) {
     messageDiv.innerHTML = "Loading...";
