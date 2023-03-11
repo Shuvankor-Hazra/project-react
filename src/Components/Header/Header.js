@@ -26,13 +26,13 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <NavLink to="/" className=" nav-link">
-                <i className="fa-solid fa-house-user me-1"></i>Home
+                <i className="fa-solid fa-house-user me-2"></i>Home
               </NavLink>
               <NavLink to="/about" className="nav-link">
-                <i className="fa-solid fa-circle-info me-1"></i>About
+                <i className="fa-solid fa-circle-info me-2"></i>About
               </NavLink>
               <NavLink to="/blog" className="nav-link">
-                <i className="fa-solid fa-blog me-1"></i>Blog
+                <i className="fa-solid fa-blog me-2"></i>Blog
               </NavLink>
               {user ? (
                 <NavLink className="btn-link" onClick={handleSignOut}>

@@ -6,7 +6,7 @@ import "./SinglePricing.css";
 const SinglePricing = () => {
   return (
     <>
-      <Col md={4}>
+      <Col lg={4}>
         <div className="single-pricing regular">
           <h3>Basic</h3>
           <div className="price-area">$750/month</div>
@@ -21,11 +21,12 @@ const SinglePricing = () => {
                 Weekly Blogs
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Directory
-                Listings
+                <i className="fa-regular fa-square-check"></i>
+                Directory Listings
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Pagespeed Boost
+                <i className="fa-regular fa-square-check"></i>
+                Pagespeed Boost
               </li>
               <li>
                 <i className="fa-regular fa-square-check"></i>
@@ -50,7 +51,7 @@ const SinglePricing = () => {
           </div>
         </div>
       </Col>
-      <Col md={4}>
+      <Col lg={4}>
         <div className="single-pricing popular">
           <h3>Premium</h3>
           <div className="ribbon">Popular</div>
@@ -66,14 +67,16 @@ const SinglePricing = () => {
                 Weekly Blogs
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Directory
-                Listings
+                <i className="fa-regular fa-square-check"></i>
+                Directory Listings
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Pagespeed Boost
+                <i className="fa-regular fa-square-check"></i>
+                Pagespeed Boost
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Structured Data
+                <i className="fa-regular fa-square-check"></i>
+                Structured Data
               </li>
               <li>
                 <i className="fa-regular fa-square-check"></i>
@@ -94,7 +97,7 @@ const SinglePricing = () => {
           </div>
         </div>
       </Col>
-      <Col md={4}>
+      <Col lg={4}>
         <div className="single-pricing regular">
           <h3>Ultimate</h3>
           <div className="price-area">$3,300/month</div>
@@ -109,14 +112,16 @@ const SinglePricing = () => {
                 Weekly Blogs
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Directory
-                Listings
+                <i className="fa-regular fa-square-check"></i>
+                Directory Listings
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Pagespeed Boost
+                <i className="fa-regular fa-square-check"></i>
+                Pagespeed Boost
               </li>
               <li>
-                <i className="fa-regular fa-square-check"></i> Structured Data
+                <i className="fa-regular fa-square-check"></i>
+                Structured Data
               </li>
               <li>
                 <i className="fa-regular fa-square-check"></i>

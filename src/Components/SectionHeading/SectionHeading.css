@@ -3,10 +3,10 @@
 }
 .section-heading h2 {
   position: relative;
-  font-size: 40px;
+  font-size: 36px;
   margin-bottom: 50px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 42px;
   font-family: "Oswald", sans-serif;
 }
@@ -15,17 +15,63 @@
   font-weight: 400;
 }
 .section-heading h2::after {
+  position: absolute;
   content: "";
   background: #f6ba18;
   height: 2px;
-  width: 60px;
-  position: absolute;
-  bottom: -30px;
   left: 50%;
+  width: 60px;
+  bottom: -30px;
   margin-left: -30px;
 }
-
 .section-heading p {
   max-width: 800px;
   margin: 30px auto;
+}
+
+@media (max-width: 991px) {
+  .section-heading h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .section-heading h2::after {
+    bottom: -20px;
+  }
+  .section-heading p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-heading h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .section-heading p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-heading h2 {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .section-heading h2::after {
+    bottom: -8px;
+  }
+  .section-heading p {
+    font-size: 0.6rem;
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-heading h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .section-heading h2::after {
+    bottom: -6px;
+  }
 }

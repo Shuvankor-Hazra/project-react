@@ -4,7 +4,6 @@
   background-repeat: round;
   background-size: cover;
 }
-
 .footer-area .footer-top {
   padding: 80px 0 50px 0;
 }
@@ -148,4 +147,47 @@
 .language .btn-link {
   text-decoration: none;
   border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .footer-area .footer-top {
+    padding: 60px 0 60px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-links h4::after {
+    left: 245px;
+  }
+  .footer-links .contact-list li {
+    display: block;
+    margin-left: 33px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .right-box {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-area .footer-top {
+    padding: 40px 0 60px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-area .footer-top {
+    padding: 30px 0 50px 0;
+  }
+  .footer-links h4::after {
+    left: 155px;
+  }
 }

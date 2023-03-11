@@ -13,9 +13,8 @@ const Pricing = () => {
           <SectionHeading
             heading="Our best"
             span="Pricing Plan"
-            subHeading="Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            subHeading="Our pricing plans are designed to offer maximum value and
+            flexibility to our clients, with transparent pricing and no hidden fees. We offer competitive rates without compromising on quality, and our packages can be customized to suit your specific requirements."
           />
           <SinglePricing />
         </Row>

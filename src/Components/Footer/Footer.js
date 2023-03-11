@@ -15,7 +15,7 @@ const Footer = () => {
             <Col lg={6} md={12} sm={12} className="big-column">
               <Row>
                 <Col lg={7} md={6} sm={12} className="footer-column">
-                  <div className="about-footer">
+                  <div className="about-footer mt-4">
                     <div className="logo mb-4">
                       <a href="/project-react">
                         <img src={Logo} alt=""></img>
@@ -40,7 +40,7 @@ const Footer = () => {
                   </div>
                 </Col>
                 <Col lg={5} md={6} sm={12} className="footer-column">
-                  <div className="footer-links">
+                  <div className="footer-links mt-4">
                     <h4>Useful Links</h4>
                     <ul className="links">
                       <li>
@@ -66,7 +66,7 @@ const Footer = () => {
             <Col lg={6} md={12} sm={12} className="big-column">
               <Row>
                 <Col lg={6} md={6} sm={12} className="footer-column">
-                  <div className="footer-links">
+                  <div className="footer-links mt-4">
                     <h4>Sub Pages</h4>
                     <ul className="links">
                       <li>
@@ -88,7 +88,7 @@ const Footer = () => {
                   </div>
                 </Col>
                 <Col lg={6} md={6} sm={12} className="footer-column">
-                  <div className="footer-links">
+                  <div className="footer-links mt-4">
                     <h4>Contact Us</h4>
                     <ul className="contact-list">
                       <li>

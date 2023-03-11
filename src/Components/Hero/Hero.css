@@ -65,47 +65,93 @@
     font-size: 1.5rem;
   }
   .slider h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   .slider p {
     font-size: 1rem;
   }
-  .slider .btn {
-    margin-bottom: 30px;
-    font-size: 1rem;
-  }
-  .slider button {
-    padding: 8px 25px;
+  .slider .button button {
+    font-size: 1.2rem;
+    padding: 6px 30px;
+    margin-bottom: -10px;
+    margin-top: 10px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
-    width: 3rem;
-    height: 3rem;
-    padding: 5px;
-    border: 10px solid #f6ba18;
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+    border: 12px solid #f6ba18;
   }
   .carousel-item img {
     height: 400px !important;
-    width: auto !important;
-  }
-  .slider button {
-    font-size: 10px;
-    padding: 8px 12px;
-    margin-bottom: 20px;
   }
   .slider h5 {
     font-weight: 500;
+    font-size: 1.3rem;
+  }
+  .slider h1 {
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding: 5px 0;
+  }
+  .slider p {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .slider .button {
+    padding: 8px 12px;
+    margin-bottom: 20px;
+  }
+  .slider .button button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 10px;
+    border: 10px solid #f6ba18;
+  }
+  .carousel-item img {
+    height: 300px !important;
+  }
+  .slider h5 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .slider h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+  .slider p {
+    font-weight: 400;
+    font-size: 0.6rem;
+  }
+  .slider .button {
+    padding: 6px 10px;
+    margin-bottom: 15px;
+  }
+  .slider .button button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .slider h5 {
+    font-weight: 400;
     font-size: 0.8rem;
   }
   .slider h1 {
     font-weight: 600;
     font-size: 0.9rem;
-  }
-  .slider p {
-    font-weight: 500;
-    font-size: 0.6rem;
+    padding: 5px 0;
   }
 }

@@ -3,42 +3,42 @@
     "id": "1",
     "img": "https://i.ibb.co/rFzgHbw/service-1.jpg",
     "h3": "Ecommerce Solution",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum..",
+    "p": "E-commerce refers to the buying and selling of goods or services online. This can be done through a dedicated e-commerce website, online marketplaces like Amazon or eBay, or social media platforms like Instagram...",
     "btn": "Read More >>"
   },
   {
     "id": "2",
     "img": "https://i.ibb.co/VmMy2Hr/service-2.jpg",
     "h3": "Business Financing",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum..",
+    "p": "Business financing refers to the process of securing involves funding for a business. This can included crowd funding, traditional bank loans, venture capital, angel investors, and crowd funding, or other forms of financing...",
     "btn": "Read More >>"
   },
   {
     "id": "3",
     "img": "https://i.ibb.co/FXxfYSc/service-3.jpg",
     "h3": "Product Marketing",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum..",
+    "p": "Product marketing promoting and selling a specific product to potential customers. This includes identifying the target audience, creating messaging and branding, developing marketing campaigns, measuring of these...",
     "btn": "Read More >>"
   },
   {
     "id": "4",
     "img": "https://i.ibb.co/LP7rkG0/service-4.jpg",
     "h3": "Business Idea",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum..",
+    "p": "A business idea is a concept or plan improving an existing business for a potential business venture. This can include identifying a gap in the market, developing a new product or service, or improving an existing business model...",
     "btn": "Read More >>"
   },
   {
     "id": "5",
     "img": "https://i.ibb.co/pJpvJzz/service-5.jpg",
     "h3": "Custom portfolio",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum..",
+    "p": "A custom portfolio is a collection of investments that is tailored to the specific needs and goals of an individual or organization. This can include a mix of stocks, bonds, mutual funds, and other investments...",
     "btn": "Read More >>"
   },
   {
     "id": "6",
     "img": "https://i.ibb.co/7ncbyDJ/service-6.jpg",
     "h3": "Brand Promotion",
-    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum..",
+    "p": "Brand promotion involves increasing awareness and visibility of a brand. This can include that the advertising campaigns, social media marketing, influencer partnerships, and other tactics to build  brand recognition...",
     "btn": "Read More >>"
   }
 ]

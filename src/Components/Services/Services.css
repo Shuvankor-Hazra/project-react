@@ -2,3 +2,18 @@
   padding: 80px 0;
   background-color: #151c57;
 }
+@media (max-width: 991px) {
+  .services-area {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 575px) {
+  .services-area {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 375px) {
+  .services-area {
+    padding: 30px 0;
+  }
+}

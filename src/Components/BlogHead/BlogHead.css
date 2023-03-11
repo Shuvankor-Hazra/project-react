@@ -1,5 +1,5 @@
 .blog-head {
-  margin-top: 72px !important;
+  margin-top: 72px;
   position: relative;
 }
 .blog-head-img img {
@@ -30,4 +30,10 @@
   width: 100%;
   background-color: #f6ba18;
   bottom: -10%;
+}
+
+@media (max-width: 991px) {
+  .blog-head-img img {
+    height: 300px;
+  }
 }

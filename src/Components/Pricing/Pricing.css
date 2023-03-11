@@ -1,3 +1,21 @@
 .pricing-area {
   padding: 80px 0 100px 0;
 }
+
+@media (max-width: 991px) {
+  .pricing-area {
+    padding: 60px 0 80px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .pricing-area {
+    padding: 40px 0 60px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .pricing-area {
+    padding: 30px 0 50px 0;
+  }
+}

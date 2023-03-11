@@ -31,3 +31,9 @@
   background-color: #f6ba18;
   bottom: -10%;
 }
+
+@media (max-width: 991px) {
+  .about-head-img img {
+    height: 300px;
+  }
+}

@@ -1,16 +1,134 @@
+.contact-text {
+  border: 1px solid #fff;
+  border-radius: 50px 0 0 50px;
+  padding: 40px;
+}
+.contact-text h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 3rem;
+  margin-bottom: 0;
+}
+.contact-text h2 span {
+  font-size: 32px;
+  font-weight: 500;
+  color: #f6ba18;
+}
+.contact-text p {
+  padding-top: 30px;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+
 .contact-form {
   background-color: #fff;
-  padding: 20px 0;
+  padding: 27px;
+  border: 1px solid #999;
   border-radius: 0 50px 50px 0;
 }
 .contact-form h3 {
   color: #000;
   font-size: 26px;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 .contact-form .form-control {
   padding: 10px 20px;
   border-radius: 30px;
   box-shadow: none !important;
+}
+.contact-hight {
+  margin-top: 30px;
+}
+
+@media (max-width: 1499px) {
+  .contact-hight {
+    height: 520px;
+  }
+}
+@media (max-width: 1399px) {
+  .contact-hight {
+    height: 520px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .contact-hight {
+    height: 550px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-text {
+    text-align: center;
+  }
+  .contact-hight {
+    height: auto;
+  }
+  .contact-text h2 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 3rem;
+  }
+  .contact-form button:not(:disabled) {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-form button:not(:disabled) {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-text {
+    padding: 25px;
+  }
+  .contact-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+  .contact-text h2 span {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .contact-text p {
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 2rem;
+  }
+  .contact-form h3 {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+  .contact-form button:not(:disabled) {
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contact-text {
+    padding: 25px;
+  }
+  .contact-text h2 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+  .contact-text h2 span {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .contact-text p {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 1.8rem;
+  }
+  .contact-form h3 {
+    font-size: 18px;
+    margin: 15px 0;
+  }
 }

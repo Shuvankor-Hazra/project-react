@@ -13,6 +13,8 @@
   font-size: 18px;
   color: #fff !important;
   margin-left: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .header-area .nav-link:hover,
 .header-area .nav-link:is(:link, :active, :visited).active {
@@ -22,8 +24,9 @@
 .header-area .btn-link {
   margin-left: 30px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 800;
   text-decoration: none;
+  padding: 7px 30px;
 }
 .navbar-toggler,
 .navbar-toggler-icon {
@@ -36,21 +39,49 @@ button {
 
 @media (max-width: 991px) {
   .navbar-toggler {
-    /* font-size: small !important; */
     box-shadow: none !important;
     border: none !important;
   }
   .navbar-nav {
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.7;
   }
   .header-area .nav-link {
     margin-left: 0 !important;
   }
   .header-area .btn-link {
     margin-left: 0 !important;
+    margin-top: 5px;
+    padding: 7px 0;
+    margin-bottom: 10px;
   }
-  .btn-link {
-    padding: 4px;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    font-size: small !important;
+  }
+  .header-area .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .navbar-nav {
+    line-height: 1.5;
+  }
+  .header-area .btn-link {
+    padding: 5px 0;
+  }
+}
+@media (max-width: 575px) {
+  .header-area .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .navbar-nav {
+    line-height: 1.3;
+  }
+  .header-area .btn-link {
+    padding: 3px 0;
+    font-weight: 700;
   }
 }

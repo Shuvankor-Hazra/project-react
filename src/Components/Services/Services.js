@@ -18,9 +18,7 @@ const Servises = () => {
         <SectionHeading
           heading="OUR BEST"
           span="SERVICES"
-          subHeading="Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          subHeading="We offer a range of top-quality services tailored to meet the needs of our clients, including web development, digital marketing, content creation, and more. Our experienced team is dedicated to delivering exceptional results that exceed your expectations."
         />
         <Row>
           {services.map((item) => (
