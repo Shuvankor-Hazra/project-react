@@ -8,7 +8,7 @@ const GithubSignUp = () => {
   if (error) {
     return (
       <div>
-        <p>Error: {error.message}</p>
+        <p>Error:{error.message}</p>
       </div>
     );
   }
@@ -26,7 +26,7 @@ const GithubSignUp = () => {
     <div>
       {" "}
       <Button
-        className="btn btn-default w-100 mb-4"
+        className="btn btn-default w-100"
         onClick={() => signInWithGithub()}
         type="submit"
       >

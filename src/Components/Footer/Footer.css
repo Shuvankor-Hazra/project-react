@@ -5,7 +5,7 @@
   background-size: cover;
 }
 .footer-area .footer-top {
-  padding: 80px 0 50px 0;
+  padding: 60px 0;
 }
 .about-footer .logo a img {
   width: 50%;
@@ -13,7 +13,7 @@
 }
 .about-footer .text {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 30px;
   line-height: 35px;
 }
@@ -48,9 +48,12 @@
 .form-group button i {
   color: #fff;
 }
+.footer-links {
+  margin-left: 20px;
+}
 .footer-links h4 {
   position: relative;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 55px;
 }
@@ -73,7 +76,7 @@
 .links a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 .links a:hover {
@@ -88,6 +91,9 @@
   font-size: 20px;
   color: #f6ba18;
   position: absolute;
+}
+.contact-list li a:hover {
+  color: #f6ba18;
 }
 .footer-links .contact-list {
   padding-left: 0;
@@ -118,11 +124,13 @@
   border-top: 1px solid #f6bb186e;
 }
 .copyright a {
+  font-size: 18px;
   text-decoration: none;
   color: #f6ba18;
 }
 .copyright a:hover {
-  color: #235c51;
+  font-size: 18px;
+  color: #b98c11;
 }
 .footer-area .social-box {
   position: relative;

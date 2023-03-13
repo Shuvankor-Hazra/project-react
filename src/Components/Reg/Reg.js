@@ -31,9 +31,9 @@ const Reg = () => {
   }
 
   return (
-    <section className="reg-area py-5">
+    <section className="reg-area">
       <Container>
-        <h2 className="text-center py-5">Registration Here</h2>
+        <h2 className="text-center pb-5">Registration Here</h2>
         <Row>
           <Col lg={{ span: 6, offset: 3 }}>
             <Form.Group className="mb-3" controlId="formBasicEmail">

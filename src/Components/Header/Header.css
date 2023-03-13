@@ -13,8 +13,7 @@
   font-size: 18px;
   color: #fff !important;
   margin-left: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 }
 .header-area .nav-link:hover,
 .header-area .nav-link:is(:link, :active, :visited).active {
@@ -24,7 +23,7 @@
 .header-area .btn-link {
   margin-left: 30px;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
   padding: 7px 30px;
 }

@@ -79,9 +79,9 @@ const Blog = () => {
                   <p>
                     Taking a stance, forming an opinion, and discussing an
                     industry trend with a point of view is another common blog
-                    type seen on consulting pages. For example, Deloitte had one
-                    of their top executives write an article about the impact of
-                    automation of a number of industries.
+                    right now type seen on consulting pages. For example,
+                    Deloitte had one of their top executives write an article
+                    about the impact of automation of a number of industries.
                   </p>
                 </div>
               </div>

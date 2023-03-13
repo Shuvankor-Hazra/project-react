@@ -1,6 +1,6 @@
 import React from "react";
+import AboutHeadImg from "../../Images/sub-head.jpg";
 import "./AboutHead.css";
-import AboutHeadImg from "../../Images/about-1.jpg";
 
 const AboutHead = () => {
   return (

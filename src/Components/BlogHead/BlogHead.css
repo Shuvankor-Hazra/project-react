@@ -4,12 +4,12 @@
 }
 .blog-head-img img {
   max-height: 70vh;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .blog-head-text h1 {
   position: absolute;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 900;
   top: 40%;
   right: 40%;
   letter-spacing: 5px;

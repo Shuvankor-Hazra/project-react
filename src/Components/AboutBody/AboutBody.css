@@ -1,34 +1,50 @@
 .about-area {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 100px;
   background-color: #151c57;
 }
 .about-text {
-  padding: 40px;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+  padding: 30px;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
   border-radius: 50px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .about-text h2 {
   padding-bottom: 15px;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 600;
 }
 .about-text p {
   padding-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .about-image {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .about-image img {
   border-radius: 50px;
 }
+
+@media (max-width: 1399px) {
+  .about-height {
+    height: 380px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .about-height {
+    height: 430px;
+  }
+}
+
 @media (max-width: 991px) {
   .about-area {
     padding-top: 45px;
     padding-bottom: 70px;
     text-align: center;
+  }
+  .about-height {
+    height: auto;
   }
 }

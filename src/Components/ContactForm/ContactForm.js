@@ -1,23 +1,30 @@
 import React from "react";
 import Col from "react-bootstrap/esm/Col";
 import Button from "../Button/Button";
+import Contact from "../../Images/contact.jpg";
 import "./ContactForm.css";
 
 const ContactForm = () => {
   return (
     <>
       <Col lg={6}>
-        <div className="contact-text contact-hight">
-          <h2>
-            Quailty Consulting <span>Services Provider</span> For Your Business,
-            We Are <span>Always Ready</span> For Your Solution
-          </h2>
-          <p>
-            Improve efficiency, provide a better customer experience with modern
-            technolo services available around the world. Our skilled staff,
-            combined with Improve efficiency, provide a better customer
-            experience with modern technolo services available around the world.
-          </p>
+        <div className="contact-left contact-hight">
+          <div className="contact-image">
+            <img src={Contact} alt="" className="w-100"></img>
+          </div>
+          <div className="contact-text">
+            <h2>
+              Quailty Consulting <span>Services Provider</span> For Your
+              Business, We Are <span>Always Ready</span> For Your Solution
+            </h2>
+            <p>
+              Improve efficiency, provide a better customer experience with
+              modern technolo services available around the world. Our skilled
+              staff, combined with Improve efficiency, provide a better customer
+              experience with modern technolo services available around the
+              world.
+            </p>
+          </div>
         </div>
       </Col>
       <Col lg={6}>

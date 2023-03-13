@@ -1,12 +1,12 @@
 import React from "react";
-import AboutHeadImg from "../../Images/about-1.jpg";
+import BlogHeadImg from "../../Images/sub-head.jpg";
 import "./BlogHead.css";
 
 const BlogHead = () => {
   return (
     <section className="blog-head">
       <div className="blog-head-img">
-        <img src={AboutHeadImg} alt="" className="w-100"></img>
+        <img src={BlogHeadImg} alt="" className="w-100"></img>
       </div>
       <div className="blog-head-text">
         <h1>Our Blog</h1>
