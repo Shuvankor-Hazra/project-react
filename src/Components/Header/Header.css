@@ -32,9 +32,6 @@
   background-color: #f6ba18;
   border-radius: 20px;
 }
-button {
-  background-color: #f6ba18;
-}
 
 @media (max-width: 991px) {
   .navbar-toggler {

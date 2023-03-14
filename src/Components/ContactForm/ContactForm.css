@@ -84,6 +84,12 @@
   .contact-form .btn-link {
     margin-left: 165px;
   }
+  .contact-text h2 {
+    margin-bottom: 0;
+  }
+  .contact-text p {
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -126,7 +132,7 @@
   .contact-text p {
     padding-top: 20px;
     font-size: 14px;
-    line-height: 1.8rem;
+    line-height: 1.4rem;
   }
   .contact-form h3 {
     font-size: 18px;

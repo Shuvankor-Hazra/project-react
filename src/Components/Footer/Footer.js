@@ -120,11 +120,13 @@ const Footer = () => {
           </Row>
         </div>
         <div className="footer-bottom">
-          <div className="d-flex justify-content-between align-items-center flex-wrap">
+          <div className="footer-left-box d-flex justify-content-between align-items-center">
             <div className="left-box">
               <div className="copyright">
-                ©Copyright 2023 <a href="/project-react">BDash</a>, All Rights
-                Reserved
+                <p>
+                  ©Copyright 2023 <a href="/project-react">BDash</a>, All Rights
+                  Reserved
+                </p>
               </div>
             </div>
             <div className="right-box d-flex">
