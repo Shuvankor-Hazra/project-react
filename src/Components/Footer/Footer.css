@@ -186,6 +186,10 @@
   .footer-top {
     text-align: center !important;
   }
+  .footer-top .logo a img {
+    width: 40%;
+    height: auto;
+  }
   .about-footer .form-group {
     left: 50%;
     transform: translateX(-50%);
