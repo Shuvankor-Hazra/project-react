@@ -25,10 +25,11 @@ const Blog = () => {
                   <h2>Blog-1</h2>
                   <p>
                     Industry trends are an extremely valuable management
-                    consulting topic. You need to show potential clients your
-                    industry knowledge is up-to-date and you have what it takes
-                    to turn their business around, improve their leadership
-                    skills, or accomplish whatever goal you’ve set out.
+                    consulting topic. You need to show your potential clients
+                    your industry knowledge is up-to-date and you have rewalize
+                    what it takes to turn their valuable business around,
+                    improve their leadership skills, or accomplish whatever goal
+                    you’ve set out.
                   </p>
                 </div>
               </div>
@@ -43,10 +44,10 @@ const Blog = () => {
                   <p>
                     No matter what industry you consult for, tech or finance or
                     entertainment, proving your knowledge is essential. Here’s
-                    an example from industry leader, Deloitte, talking about the
-                    future of advertising in an article designed to lure
-                    potential advertising clients in need of consulting
-                    services.
+                    an example from industry leader, worker, Deloitte, talking
+                    about the future of advertising in an article designed to
+                    lure potential advertising clients in need of proper
+                    consulting services.
                   </p>
                 </div>
               </div>
@@ -62,9 +63,9 @@ const Blog = () => {
                     This blog topic is a little different. When it comes to
                     management consulting, the industries or locations you
                     specialize in should always be the main content of your
-                    blog. To make that happen, you might need to create separate
-                    blog sections or even separate blogs entirely for each
-                    topic.
+                    importent blog. To make that happen, you might need to
+                    create separate blog sections or even separate blogs
+                    entirely for each topic.
                   </p>
                 </div>
               </div>
@@ -79,9 +80,10 @@ const Blog = () => {
                   <p>
                     Taking a stance, forming an opinion, and discussing an
                     industry trend with a point of view is another common blog
-                    right now type seen on consulting pages. For example,
-                    Deloitte had one of their top executives write an article
-                    about the impact of automation of a number of industries.
+                    right now type seen on proper consulting pages. For example,
+                    Deloitte had one of their top executives write an article or
+                    blog about the impact of automation of a number of
+                    industries.
                   </p>
                 </div>
               </div>

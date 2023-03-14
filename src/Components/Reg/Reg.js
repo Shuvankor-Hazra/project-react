@@ -59,7 +59,7 @@ const Reg = () => {
               onClick={() => createUserWithEmailAndPassword(email, password)}
               variant="primary"
               type="submit"
-              className="w-100 my-4"
+              className="w-100 my-4 btn-link"
             >
               Submit
             </Button>

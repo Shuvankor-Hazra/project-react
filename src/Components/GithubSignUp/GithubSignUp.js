@@ -26,7 +26,7 @@ const GithubSignUp = () => {
     <div>
       {" "}
       <Button
-        className="btn btn-default w-100"
+        className="btn-link w-100"
         onClick={() => signInWithGithub()}
         type="submit"
       >

@@ -3,6 +3,11 @@
   background-color: #151c575a;
   padding: 80px 0;
 }
+.form-control {
+  border-radius: 25px !important;
+  padding: 10px 20px !important;
+  box-shadow: none !important;
+}
 .reg-area p {
   text-align: center;
 }
@@ -12,10 +17,10 @@
 .or-style {
   display: block;
   background-color: #efefef;
-  padding: 5px;
+  padding: 8px;
   text-align: center;
   margin: 30px 0;
-  border-radius: 3px;
+  border-radius: 25px;
   color: #000;
   font-size: 20px;
   font-weight: 600;
@@ -24,7 +29,9 @@
   font-weight: 700;
   background-color: #f6ba18;
   color: #000;
+  border-color: #f6ba18;
 }
 .reg-area button:hover {
   background-color: #bd8f13;
+  border-color: #f6ba18;
 }

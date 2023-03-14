@@ -26,7 +26,7 @@ const GoogleSignUp = () => {
   return (
     <div>
       <Button
-        className="btn btn-default w-100 mb-4"
+        className="btn-link w-100 mb-4"
         onClick={() => signInWithGoogle()}
         type="submit"
       >

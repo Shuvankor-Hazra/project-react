@@ -7,10 +7,10 @@ const NotFound = () => {
     <section className="not-found-area">
       <Container>
         <div className="not-found-text text-center">
-          <h2>404</h2>
-          <h3>Not Found, There's nothing here.</h3>
+          <h2>404 Error-Not Found</h2>
+          <h3>Sorry, this page doesn't exist.</h3>
           <a href="/" class="router-link-active">
-            Bring me home!
+            Bring me Home!
           </a>
         </div>
       </Container>

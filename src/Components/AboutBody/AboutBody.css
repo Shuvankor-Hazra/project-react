@@ -32,6 +32,16 @@
   height: 100%;
 }
 
+@media (max-width: 1499px) {
+  .about-height {
+    height: 380px;
+  }
+  .about-text {
+    margin: auto 30px;
+    margin-top: 50px;
+  }
+}
+
 @media (max-width: 1399px) {
   .about-height {
     height: 380px;

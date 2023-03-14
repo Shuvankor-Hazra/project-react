@@ -55,7 +55,7 @@ const ContactForm = () => {
             className="form-control mb-3"
           ></textarea>
           <div id="error-div" className="text-warning"></div>
-          <Button btnName="Submit Now" id="submitButton"></Button>
+          <Button btnName="Submit Now" className="btn-link"></Button>
         </div>
       </Col>
     </>

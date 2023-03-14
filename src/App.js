@@ -28,7 +28,7 @@ function App() {
         />
         <Route path="/reg" element={<Reg />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

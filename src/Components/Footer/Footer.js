@@ -25,17 +25,15 @@ const Footer = () => {
                       Jackcerra is a full-service business firm with record of
                       winning many campaigns under challenging circumstances.
                     </div>
-                    <div className="newsletter-form">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Email Address"
-                        ></input>
-                        <button type="submit">
-                          <i className="fa-regular fa-paper-plane"></i>
-                        </button>
-                      </div>
+                    <div className="form-group">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email Address"
+                      ></input>
+                      <button type="submit">
+                        <i className="fa-regular fa-paper-plane"></i>
+                      </button>
                     </div>
                   </div>
                 </Col>

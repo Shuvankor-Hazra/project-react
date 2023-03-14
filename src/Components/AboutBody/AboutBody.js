@@ -28,11 +28,17 @@ const AboutBody = () => {
                 <p>
                   So let’s talk about how you can design a consulting proposal
                   (also known as a business proposal) that turns leads into
-                  clients.
+                  clients.A consulting proposal acts as a sales pitch that you
+                  send to a potential client. In your consulting proposal, you
+                  typically include.
                 </p>
               </div>
             </Col>
           </div>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
           <div className="about-div">
             <Col lg={6} xs={{ order: "last" }}>
               <div className="about-image about-height">
@@ -45,7 +51,9 @@ const AboutBody = () => {
                 <p>
                   A consulting proposal acts as a sales pitch that you send to a
                   potential client. In your consulting proposal, you typically
-                  include.
+                  include.So let’s talk about how you can design a consulting
+                  proposal (also known as a business proposal) that turns leads
+                  into clients.
                 </p>
                 <p>
                   Acquiring new clients is one of the biggest challenges many

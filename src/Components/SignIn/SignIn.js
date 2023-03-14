@@ -60,7 +60,7 @@ const SignIn = () => {
               onClick={() => signInWithEmailAndPassword(email, password)}
               variant="primary"
               type="submit"
-              className="w-100"
+              className="w-100 btn-link"
             >
               Sign In
             </Button>
