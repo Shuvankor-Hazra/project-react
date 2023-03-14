@@ -9,7 +9,7 @@
 }
 .single-item .image img {
   border-radius: 15px;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .single-item .details {
   padding: 5px 20px 20px 20px;
@@ -18,25 +18,28 @@
 .single-item .details h3 {
   font-size: 1.5rem;
   text-decoration: none;
-  color: #000;
+  color: #235c51;
   padding: 15px 0;
   margin-bottom: 0;
   font-weight: 600;
+  transition: 0.3s ease-in-out;
 }
 .single-item .details p {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   line-height: 120%;
   color: #000;
+  transition: 0.3s ease-in-out;
 }
 .single-item .details a {
   display: inline-block;
   padding-top: 10px;
   text-decoration: none;
-  color: #006100;
+  color: #235c51;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
 }
 .single-item:hover {
   background-color: #235c51;
@@ -46,6 +49,8 @@
 }
 .single-item:hover .details {
   background-image: url(../../Images/bg-img.png);
+  background-position: center;
+  background-size: cover;
 }
 .single-item:hover .details h3 {
   color: #f6ba18;
