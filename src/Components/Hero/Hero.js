@@ -31,4 +31,3 @@ const Hero = () => {
 
 export default Hero;
 
-/* <section className="slider carousel slide carousel-fade"></section> */
